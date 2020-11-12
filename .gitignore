@@ -1,0 +1,9 @@
+**/__pycache__/
+.cache/
+.eggs/
+*.egg-info/
+docs/_build
+.virtualenv
+.idea
+.coverage
+.DS_Store

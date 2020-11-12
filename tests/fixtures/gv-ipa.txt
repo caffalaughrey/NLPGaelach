@@ -1,0 +1,78 @@
+Bannaghtyn dhyt, ghowin!	banəxən ditʃ ɣɔwən
+# Aidiachtaí ón bhFoclóir Labhartha: https://www.learnmanx.com/audio_collection_6958.html
+aalin	ɛːlən
+bog	bɔɡ
+boght	bɔx
+booiagh	buiːəx
+braew	brau
+creoi	krai
+doillee	dɔliː
+injil	indʒəl
+jesh	dʒeʃ
+# lane	lɛːn # TODO: Was it ɛ or ɛː in the recording? If ɛ, why?
+liauyr	lʲiːawəɹ̝
+moal	mɔːl
+mooar	muːəɹ̝
+# mooarane	muːrɛːn # TODO: ooa is uː or even u here, but uːə in (seemingly) one-syllable words elsewhere. Why?
+noa	nɔː
+olk	ɔlk
+# ommidjagh	ɔməʒəx # TODO: In recording sounds more like "ɔmədʒəx". Why does dj sound this way rather than rule ("ʒ" between vowels)
+roauyr	rawəɹ̝
+shenn	ʃen
+skee	skʲiː
+sollagh	sɔləx
+tappee	taviː
+thanney	tanə
+trimshagh	tʃrimʃəx
+trome	trɔːm
+# ymmydoil	iməðɔl # TODO: In recording, above is "iməðɔːl" or perhaps "iməðɔːlʲ"
+çheh	tʃeː
+çheu-mooie	tʃuːmuiː
+çheu-sthie	tʃuːstaɪ
+çheu-veealloo	tʃuːviːəluː
+# Ainmhithe ón bhFoclóir Labhartha: https://www.learnmanx.com/audio_collection_4183.html ...
+# apag	apəɡ # TODO: Why is "p" between vowels pronounced p instead of v in this case? Borrowed word?
+arkan-sonney	arkənsɔnə
+ard-nieu	ardnʲeu
+assyl	azəl
+booa	buːə
+cappyl	kavəl
+# cabbylawin	kavəlawən # TODO: We're not picking up a in third syllable. Perhaps is_stressed can be marked True for this graph by some rule?
+craitnag	kratnəɡ
+croggeeyl	krɔɣiːlʲ
+crammag	kraməɡ
+crooag-heeidey	kruːəɡhiːdʒə
+# dhiane	??? # TODO: Very unclear why this sounds like the woman's name "Diane" from the John Cougar Mellencamp song
+doo oallee	duː ɔːliː
+doourchoo	duːorxuː
+eayn	eːnʲ
+famman	famən
+# feeaih	fʲiːaih # TODO: Find out if final h should be silent
+fiorag	fʲiɔrəɡ
+# foillycan	fɔləkən # TODO: Similar ɔl issue as with ymmydoil above
+jolgane-leaghyr	dʒɔlɡɛːnlɛːɣəɹ̝
+# kionesnaue	kʲiɔnsneːw # TODO: From kʲiɔnʲəʃnʲeːw, two problems. 1. There is final e in "kione", but it is hidden mid-token and 2. "n" wrongly classed as slender due to new rule
+kyaghan	kaiəɣən
+lheiy	lʲeː
+lhemeen	lʲemʲiːnʲ
+# lion	lʲiɔnʲ # TODO: 1. Like dhiane problem, why does this sound like lion in English? 2. Similar problem to kionesnaue here, the final n is being tagged slender. Evaluating end of dipthongs/tripthongs rather than the beginning of the graph for slender guesses seems like more solid logic when looking backward.
+lion spottagh	lʲiɔnʲ spɔdəx
+lugh	lox
+maaig	mɛiɡ
+moddey oaldey	mɔðə ɔːldə
+moddey-keyrragh	mɔðəkərəx
+muc	mok
+# mucawin	mogawən # TODO: Seems muc is compounded with awin (river pig?) so inferring stress in awin would be nice. Also, why does c turn to "g" here, but not in foillycan?
+# mucawin bane	mogawən bɛːn
+# mucawin sheenagh	mogawən ʃiːnʲəx
+# praddag	praðəɡ # TODO: "g" above sounds a bit like k, similar to Scottish Gaelic -ag words, etc.
+# rannag	ranəɡ
+# quaillag	kwaləɡ
+rannag-ghoo ranəɡɣuː
+# roddan puissagh	rɔðən pusəx # TODO: Why is "ss" s here and not z as it is in "assyl"
+shellan	ʃelən
+shellan cabbyl	ʃelən kavəl
+shynnagh	ʃinəx
+# sniegan	snaɪgən # TODO: This is coming out: ʃnaɪɣən. Why does the recording have s and g?
+# stroin eairkagh	strɔn eːrkəx # TODO: bug - t missing in output
+tarroo	taruː
