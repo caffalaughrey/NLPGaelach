@@ -1,5 +1,5 @@
 import argparse
-from NLPGaelach import gv
+from NLPGaelach import ga, gv
 
 
 def main():
@@ -11,10 +11,16 @@ def main():
     parser.add_argument('--ipa', help='Teaghrán le rangú mar luach IPA / String to classify as an IPA value')
 
     args = parser.parse_args()
+    is_ga = args.ga
     is_gv = args.gv
     ipa = args.ipa
 
-    if is_gv is True:
+    if is_ga is True:
+        if ipa is not None:
+            print(ga.to_ipa_str(ipa))
+
+            exit()
+    elif is_gv is True:
         if ipa is not None:
             print(gv.to_ipa_str(ipa))
 
